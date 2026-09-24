@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #333;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2em;
+    z-index: 1000;
+    position: fixed;
+    top: 0%;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar li {
+    margin: 0 1em;
+    display: inline;
+    text-decoration: #fff;
+}
+#footer {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+
+}
+#footer p {
+    font-size: 20px;
+
+
+}
