@@ -20,15 +20,67 @@
     text-decoration: #fff;
 }
 #footer {
-    background-color: aqua;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #222; 
     text-align: center;
-    padding: 20px;
+    padding: 2em;
     width: 100%;
+    color:#fff;
+    position: relative;
+    bottom: 0;
+
 
 }
-#footer p {
-    font-size: 20px;
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
 
-
+}
+p {
+    margin-bottom: o.5em;
+    color: #666;
+}
+img {
+    width: 100%;
+    box-shadow: opx 2px 5px rgba(0, 0,0,0.1);
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+    padding 1 em;
+}
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0.1);
+    width: 30%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+.portfolio-item h1
+.portfolio-item h3{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+main {
+    padding-top: 5em;
+}
+main section{
+    padding: 2em 1em;
+    text-align: center;
+}
+#home p {
+  font-size: 1.2em; 
+  color: #666; 
+}
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+a :hover {
+    transform: scale(1.05);
 }
